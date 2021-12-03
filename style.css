@@ -1,0 +1,176 @@
+/* Colors and fonts */
+
+
+body {
+  background-color: skyblue;
+  color: rgb(30, 30, 30);
+  font-family: 'Helvetica';
+  line-height: normal;
+  font-size: 18px;
+  background-image: url("images/home-page-background.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  font-family: Helvetica;
+  
+}
+
+h1 {
+  color: #FF7F00;
+  font-family: Helvetica;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: normal;
+  line-height: 50px;
+}
+
+h2 {
+  color: #0040D0;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: normal;
+  display: inline;
+}
+
+h3 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: normal;
+  display: inline;
+}
+
+a {
+  font-family: 'Helvetica';
+  color: #0040D0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #FF7F00;
+  text-decoration: none;
+}
+
+p{
+  color: #FF7F00;
+  font-family: 'Helvetica';
+  line-height: normal;
+  font-size: 15px;
+}
+
+
+.toptext{
+  text-align: center;
+  color: #FF7F00;
+  font-size: 50px;
+}
+
+.cards-list li{
+  display: inline-flex;
+  padding: 100px;
+  margin: 40px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #00704A;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #00704A;
+  color: white;
+  transform: rotateY(180deg);
+  text-align: center;
+}
+
+#dominosfront {
+  background-color: #006491;
+  color: black;
+}
+
+#dominosback {
+  background-color: #006491;
+  color: black;
+}
+
+#starbucksfront {
+  background-color: #00704A;
+  color: black;
+}
+
+#starbucksback {
+  background-color: #00704A;
+  color: black;
+}
+
+#adidasfront {
+  background-color: white;
+  color: black;
+}
+
+#adidasback {
+  background-color: white;
+  color: black;
+}
+
+#mcdonaldsfront {
+  background-color: #DA291C;
+  color: black;
+}
+
+#mcdonaldsback {
+  background-color: #DA291C;
+  color: black;
+}
+
+#footlockerfront {
+  background-color: black;
+  color: black;
+}
+
+#footlockerback {
+  background-color: black;
+  color: black;
+}
+
+#burgerkingfront {
+  background-color: #0033A0;
+  color: black;
+}
+
+#burgerkingback {
+  background-color: #0033A0;
+  color: black;
+}
